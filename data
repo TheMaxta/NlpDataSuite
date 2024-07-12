@@ -1,0 +1,242 @@
+Comments: 
+Content ID: 59784
+Date created: 3/3/2020 12:12:49 PM
+Date last modified: 8/3/2021 5:30:09 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 1/30/2022 8:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/Provider/Provider Payments & Contracts/Pricing & Contracts
+Times used: 1
+Title: Describe your solutions capability to price claims for: anesthesia; durable medical equipment (DME); orthopedic supplies, prosthetics, injectables; assistant surgeons
+RFP Name  Date: Alliant RFQ - October 2017 - TranZform-QNXT-NetworX
+Updated RFP Name Date: Vaya RFP_QNXT (BPS Folder)_June 2019
+Mark as FAQ?: 
+
+________________________________________
+For anesthesia contracts, the QNXT application usually pays claims based on a set dollar amount per billed unit and time units. When claims are adjudicated, the QNXT application converts anesthesia to units as configured by lines of business and place of service Anesthesia Conversion Rules. Converting anesthesia time to units, the number of minutes in the Anesthesia Minutes field on the Claim's Service tab is divided by the number of minutes entered in the Number of Minutes Per Unit field. The QNXT application also supports Anesthesia pricing modifiers. More importantly, the configuration rules specify which option to use when rounding anesthesia units.
+The QNXT application has a DME term type that supports the requirement of paying DME and DMEPOS (Durable Medical Equipment, Prosthetics, Orthotics, and Supplies), DME region-based fees, network discounts, and rental-to-purchase options.
+The QNXT application supports orthopedic supplies, prosthetics, and injectables. Pricing can be determined by surgeon or assistant surgeons.
+________________________________________
+Comments: 
+Content ID: 59785
+Date created: 3/3/2020 12:12:49 PM
+Date last modified: 7/25/2023 9:03:58 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 7/24/2024 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/Provider/Provider Payments & Contracts/Pricing & Contracts
+Times used: 4
+Title: Describe your solutions capability to price claims with modifiers and multiple modifiers on the same detail line.
+RFP Name  Date: Alliant RFQ - October 2017 - TranZform-QNXT-NetworX
+Updated RFP Name Date: Product Team review-July 2023; QNXT Team FAQ review - July 2021; Vaya RFP_QNXT (BPS Folder)_June 2019
+Mark as FAQ?: Yes
+
+________________________________________
+The QNXT Contract module can price claims with modifiers and multiple modifiers on the same claim detail line with an explanation of the computation based on a percentage of the allowable fee to keep the final contract paid from exceeding the billed charge. The QNXT application’s tier modifier discount calculation logic determines the lesser of the contract amount and the billed amount by comparing the initial contract paid amount prior to applying lesser of logic. Users can configure to determine when “lessor of” logic should be invoked during claim adjudication. The Edit steps will identify claim payments accordingly for ease of auditing and validation purposes.
+Discounts for multiple surgeries, as well as for other multiple modifiers, often vary by provider contract. <<clientShort>> can easily configure modifier discounts and modifier discount groups which can then be assigned to lines of business, networks, or provider contracts. Sequentially tiered discounts can be created for the same modifier. In addition, this feature has built-in checks to prevent the entry of overlapping tiers, duplicate entries, and entries where the tier start is greater than the tier end.
+________________________________________
+Comments: Do you currently have customers who have integrated contract management systems (such as Salesforce or DocuSign) into your system for automated configuration?
+Content ID: 59789
+Date created: 3/3/2020 12:13:58 PM
+Date last modified: 11/6/2023 10:04:38 AM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 11/4/2024 6:30:00 PM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/Provider/Provider Payments & Contracts/Pricing & Contracts
+Times used: 10
+Title: Provider contract management (short overview)
+RFP Name  Date: QNXT_Cumberland Blind Bid - March 2017
+Updated RFP Name Date: Curative_QNXT_May_2023; CGHC RFP_May 2018_QNXT; Dean Health Plan RFI_QNXT-TranZform_Jan 2019; Alliance Health RFI_QNXT_April 2019; Vaya RFP_QNXT (BPS Folder)_June 2019
+Mark as FAQ?: 
+
+________________________________________
+##WRITER – HIGHLIGHTED PART IS ONLY TRUE WITH NETWORX PRICER INCLUDED
+Our integrated QNXT Contract module enables you to manage <<clientShort>>’s provider base in a single application. You can define parameters that support <<clientShort>>’s ability to monitor the provider’s contracts, business rules, relationships, and edits. The system maintains client’s information in a hierarchical structure that accommodates multiple lines of business, sponsoring organizations, benefit structures, and provider-reimbursement methodologies. Claims can process accurately and in accordance with all applicable rules.
+The QNXT Contract module manages provider contracts and maintains par and non-par contract information for use in claims adjudication and pricing. With our new, advanced Pricer application, rate sheets store pricing terms with easier to use capabilities and provide increased automation for additional complex risk pricing. Rate sheets provide the processing rules when calculating claim or claim estimate pricing. The module also maintains fee schedules that enable reimbursement for services rendered, according to the methods defined in the provider’s contract.
+The QNXT Contract module features easy-to-use, web-based screens and familiar web navigation, point-and-click configuration, parameter-based logic, and common procedural coding. The relational database makes contract and reimbursement information immediately available to all system components.
+________________________________________
+Comments: 
+Content ID: 59790
+Date created: 3/3/2020 12:13:58 PM
+Date last modified: 8/3/2021 7:11:21 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 3/3/2021 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/Provider/Provider Payments & Contracts/Pricing & Contracts
+Times used: 1
+Title: Describe capability to support non-standard provider contract types
+RFP Name  Date: QNXT_Cumberland Blind Bid - March 2017
+Updated RFP Name Date: Alliance Health RFI_QNXT_April 2019
+Mark as FAQ?: 
+
+________________________________________
+IF DOING MICRO-DYN:
+The QNXT Contract Module enables you to use non-standard, ancillary data sources for pricing through MicroDyn for inline adjudication, pricing, and editing. Our application provides real-time integration to support state Medicaid or CMS-mandated processing (e.g., DRG, APC, IRF, ESRD, and PPS).
+IF DOING OPTUM ECM PRO (COMPATIBLE WITH NETWORX PRODUCTS)
+The QNXT Contract module enables you to use non-standard, ancillary data sources for pricing through Optum ECM Pro for inline adjudication, pricing, and editing. Our application provides real-time integration to support state Medicaid or CMS-mandated processing (e.g., DRG, APC, ASC, IRF, IPF, ESRD, SNF, and PPS).
+________________________________________
+Comments: 
+Content ID: 59794
+Date created: 3/3/2020 12:13:58 PM
+Date last modified: 8/3/2021 7:11:21 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 3/3/2021 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/Provider/Provider Payments & Contracts/Pricing & Contracts
+Times used: 1
+Title: Ability to flag and access OON discount agreements on approved services
+RFP Name  Date: NHP - CareAdvance-QNXT-TTAP - Dec 2019
+Updated RFP Name Date: 
+Mark as FAQ?: 
+
+________________________________________
+The QNXT application supports multiple levels of provider participation:
+•	Participating (PAR), non-participating (non-PAR), or non-participating exempt
+•	Contracted or non-contracted
+•	In-network and out of network (OON)
+For any OON agreements, the system supports LOAs or One-Time Agreements.
+________________________________________
+Comments: 
+Content ID: 59795
+Date created: 3/3/2020 12:14:36 PM
+Date last modified: 7/24/2023 8:28:13 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 7/23/2024 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/Provider/Provider Directory/Registry
+Times used: 2
+Title: QNXT Provider Directory Template
+RFP Name  Date: PPIC QNXT RFP, APRIL 2015
+Updated RFP Name Date: Product Team review-July 2023; Plan de Salud-QNXT-Dec 2021; QNXT Team FAQ review - July 2021
+Mark as FAQ?: Yes
+
+________________________________________
+##INCLUDE THE YELLOW HIGHLIGHTED PHRASES ONLY IF YOU ARE PROPOSING ENGAGEPROVIDER/MEMBER.
+The QNXT application includes a standard provider directory template. In addition, users can use ad hoc reporting to extract the necessary data (e.g., zip codes, counties, and districts) to produce provider directories and export the data to third-party systems or our EngageProvider and EngageMember portals. Updates to the web portal directory occur on a user-defined basis.
+The QNXT provider record resides in the relational SQL database and is the single source of provider data throughout the enterprise. It enables creation of the provider directory using the provider’s demographic information, affiliations, pay-to affiliations, credentialed status, and related data such as specialty and sub-specialties, which link records for a 360-degree view in QNXT and the EngageProvider portal.
+________________________________________
+Comments: 
+Content ID: 59796
+Date created: 3/3/2020 12:15:56 PM
+Date last modified: 8/3/2021 5:26:57 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 8/3/2022 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/Provider/Provider Info & Files
+Times used: 4
+Title: How are provider demographics maintained in the claims system including identification of contracted versus non-contracted providers?
+RFP Name  Date: KPMG blind BPS_August2016
+Updated RFP Name Date: 
+Mark as FAQ?: 
+
+________________________________________
+The provider record resides in the relational SQL database and is the single source of provider data throughout the enterprise, supporting claims processing, service authorization, case management, and member assignments for primary care providers (PCPs). In addition, the provider record enables creation of the provider directory using the provider’s demographic information, affiliations, pay-to affiliations, participation status (par, non-par, or out of area), credentialed status, and related data such as specialty and sub-specialties.
+The processes for claim adjudication and authorization validation evaluate the provider’s participation status to determine contracted rate allowances, benefit determination, cost of share, and member responsibility.
+________________________________________
+Comments: 
+Content ID: 59797
+Date created: 3/3/2020 12:15:56 PM
+Date last modified: 8/2/2021 7:14:26 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 8/2/2022 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/Provider/Provider Info & Files
+Times used: 5
+Title: Able to apply mass updates, edits within a network and/or group What Criteria used?
+RFP Name  Date: HWMG Follow-up - QNXT-TranZform - May 2019
+Updated RFP Name Date: 
+Mark as FAQ?: 
+
+________________________________________
+The QNXT application provides a couple of options for provider mass updates. First, provider import functionality allows mass updates to specific providers within a network or group. Second, users can manually update a group, network address, or other data elements. The update can be performed in one area and cascade down to all other providers associated with that group or network.
+________________________________________
+Comments: 
+Content ID: 59799
+Date created: 3/3/2020 12:17:06 PM
+Date last modified: 9/1/2021 7:30:18 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 9/1/2022 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/User Interface & Navigation/Alerts
+Times used: 6
+Title: Does the system allow users to configure alerts?
+RFP Name  Date: USAA_QNXT_BPS_MedSup_122015
+Updated RFP Name Date: JPS (The District)-QNXT-July 2021; Dignity Health RFI_QNXT_March2018
+Mark as FAQ?: 
+
+________________________________________
+Yes. The QNXT Core Platform allows users to configure alerts throughout the application, including alerts on member records, provider records, and results of utilization management (UM) authorizations.
+________________________________________
+Comments: 
+Content ID: 59800
+Date created: 3/3/2020 12:17:06 PM
+Date last modified: 8/3/2021 5:33:52 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 8/3/2022 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/User Interface & Navigation/Alerts
+Times used: 1
+Title: Are authorization alerts customizable? Describe the system process that alerts and users when authorizations are approaching the end of the validity period?
+RFP Name  Date: Virginia Premier - CCA-TZF - Sep 2017
+Updated RFP Name Date: 
+Mark as FAQ?: 
+
+________________________________________
+Yes. <<clientShort>> can configure alerts. Authorization alerts fall into two categories:
+•	Authorization – These are alert codes that pertain to authorizations. Users can select these alerts in the Utilization Management module.
+•	Real-Time Queries – Users can quickly create alert prompts, and the system can generate the alerts when authorizations are approaching the end of the validity period based on UM criteria and date sensitivity.
+________________________________________
+Comments: 
+Content ID: 59801
+Date created: 3/3/2020 12:17:06 PM
+Date last modified: 8/3/2021 5:33:52 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 8/3/2022 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/User Interface & Navigation/Alerts
+Times used: 2
+Title: Can users configure severity levels for alerts and claims?
+RFP Name  Date: Dignity Health RFI_QNXT_March 2018
+Updated RFP Name Date: 
+Mark as FAQ?: 
+
+________________________________________
+Users can configure alerts by severity levels such as “Red” or “Yellow.” These alerts can be linked to flag claims and pend payments using the Provider Watch functionality.
+________________________________________
+Comments: 
+Content ID: 59802
+Date created: 3/3/2020 12:17:39 PM
+Date last modified: 8/3/2021 5:34:15 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 8/3/2022 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/User Interface & Navigation/Customization
+Times used: 2
+Title: Does the system allow for customizable drop down menus?
+RFP Name  Date: Mount Carmel_QNXT BPS
+Updated RFP Name Date: 
+Mark as FAQ?: 
+
+________________________________________
+Yes. Customizable drop-down menus appear throughout the application. You can search these menus, edit them, and use them for reporting purposes. You can use the “Save As” feature to copy an existing menu and then modify it for a new user or user group.
+________________________________________
+Comments: 
+Content ID: 59811
+Date created: 3/3/2020 12:19:20 PM
+Date last modified: 8/3/2021 5:34:30 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 8/3/2022 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/User Interface & Navigation/Notes
+Times used: 1
+Title: Is there spell check available for notes fields?
+RFP Name  Date: Mount Carmel_QNXT BPS
+Updated RFP Name Date: 
+Mark as FAQ?: 
+
+________________________________________
+Yes. The QNXT application provides English spell check for items such as notes.
+________________________________________
+Comments: 
+Content ID: 59812
+Date created: 3/3/2020 12:19:20 PM
+Date last modified: 8/3/2021 5:34:30 PM
+Date last used: 4/30/2024 5:22:19 PM
+Expires on: 8/3/2022 7:00:00 AM
+Folder list: Content Library/TriZetto RFP Content Libraries/(NEW) 2020-24 RFP Content/QNXT/Functional/User Interface & Navigation/Notes
+Times used: 1
+Title: Ability to configure structured notes
+RFP Name  Date: Integra RFP - QNXT-CAE - April 2017
+Updated RFP Name Date: 
+Mark as FAQ?: 
+
+________________________________________
+The QNXT Configuration Module enables <<clientShort>> to customize call resolution descriptions, call sources, and call types to reflect the company-specific terminology and business model. Configuration changes immediately affect customer service processing throughout QNXT. CCA allows CM users to configure notes by supporting filtering options, variable attachment locations (such as assessment), progress notes for care plans, and notes in support of an audit trail.
+________________________________________
